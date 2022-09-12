@@ -1,0 +1,52 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(footer.css);
+:root {
+    --blanc: linear-gradient(rgba(242, 242, 242, 0.9), rgba(255, 255, 255, 0.9), rgba(234, 234, 234, 0.9));
+    --violet-un: linear-gradient(45deg, rgba(50, 59, 149, 1), rgba(50, 59, 149, 0.9), rgba(50, 59, 149, 0.8)); 
+    --violet-deux: linear-gradient(125deg, rgba(50, 59, 149, 1), rgba(50, 59, 149, 0.9), rgba(50, 59, 149, 0.8)); 
+    --ombre-un: 2px 2px 18px rgba(9, 10, 13, 0.8);
+    --ombre-deux: 2px 2px 8px black;
+    --ombre-trois: 1px 1px 2px black;
+}
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    background: var(--violet-un);
+    font-family: monospace;
+    color: white;
+    text-shadow: var(--ombre-deux);
+}
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+    width: 90%;
+}
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+h2 {
+    font-size: 1.4em;
+    line-height: 1.6em;
+    text-align: center;
+}
+h3 {
+    align-self: start;
+    text-align:left;
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+h4 {
+    text-align: center;
+    line-height: 2em;
+}

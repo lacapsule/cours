@@ -1,0 +1,39 @@
+
+footer {
+    display: flex;
+    position: relative;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-top: 2vh;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+    background: var(--violet-deux);
+}
+.gauche,
+.droite {
+    width: 44%;
+    height: 6vh;
+    font-size: 7em;
+    text-align: center;
+    line-height: 0.5em;
+}
+.gauche:hover,
+.droite:hover {
+    transform: scale(1.2);
+    background: var(--blanc);
+}
+.gauche:hover {
+    border-radius: 0 20px 20px 0;
+}
+.droite:hover {
+    border-radius: 20px 0 0 20px;
+}
+.gauche:active,
+.droite:active {
+    transform: scale(1.1);
+    text-shadow: var(--ombre-trois);
+    background-color: rgb(165, 42, 42);
+}
