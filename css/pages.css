@@ -1,5 +1,6 @@
 body {
     height: auto;
+    overflow-y: hidden;
 }
 .item {
     width: 70%;
