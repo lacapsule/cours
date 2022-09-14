@@ -18,6 +18,7 @@ body {
     width: 100vw;
     height: auto;
     min-height: 100vh;
+    cursor: url("../media/assets/curseur.png"), auto;
     background: var(--fond);
     font-family: monospace;
     color: white;

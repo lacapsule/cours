@@ -28,10 +28,16 @@ body {
 video {
     align-self: center;
 }
-a {
+section a {
     font-style: oblique;
     text-decoration: underline;
     text-underline-position: under;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+}
+section a:hover {
+    font-size: 1.1em;
+    text-decoration-thickness: 5px;
 }
 img {
     margin: 2% 0 2% 0;

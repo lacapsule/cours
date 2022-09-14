@@ -37,3 +37,6 @@ footer {
     text-shadow: var(--ombre-trois);
     background-color: rgb(165, 42, 42);
 }
+a span {
+    text-decoration: none;
+}
