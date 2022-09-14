@@ -11,7 +11,7 @@ menu {
     height: 3vh;
     padding-top: 1vh;
     margin-bottom: 1vh;
-    background: var(--violet-deux);
+    background: var(--ombre-deux);
 }
 nav:hover {
     transform: scale(1.3);

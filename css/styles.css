@@ -2,6 +2,7 @@
 @import url(header.css);
 @import url(footer.css);
 :root {
+    --fond: rgb(25, 25, 25);
     --blanc: linear-gradient(rgba(242, 242, 242, 0.9), rgba(255, 255, 255, 0.9), rgba(234, 234, 234, 0.9));
     --violet-un: linear-gradient(45deg, rgba(50, 59, 149, 1), rgba(50, 59, 149, 0.9), rgba(50, 59, 149, 0.8)); 
     --violet-deux: linear-gradient(125deg, rgba(50, 59, 149, 1), rgba(50, 59, 149, 0.9), rgba(50, 59, 149, 0.8)); 
@@ -17,7 +18,7 @@ body {
     width: 100vw;
     height: auto;
     min-height: 100vh;
-    background: var(--violet-un);
+    background: var(--fond);
     font-family: monospace;
     color: white;
     text-shadow: var(--ombre-deux);
