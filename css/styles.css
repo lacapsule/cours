@@ -31,6 +31,16 @@ section {
     justify-content: space-around;
     height: 80%;
     width: 90%;
+    padding: 1em 0 1em 0;
+}
+section:hover {
+    background-color: black;
+    width: auto;
+    min-width: 80%;
+    margin: 0 10em 0 10em;
+    padding: 1em;
+    border-radius: 20px;
+    border: 1px solid white;
 }
 h1 {
     text-align: center;
