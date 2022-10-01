@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
 }
 .item {
-    width: 70%;
+    width: 90%;
     padding: 0 0 0.3% 1%;
 }
 .item:hover {
